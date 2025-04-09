@@ -6,7 +6,7 @@ if salary > 20000:
 elif salary == 15000:
     print("Your application has been send to Credit vetting!")
 else:
-    print("Sorry you need additional funds for a mrtgage")
+    print("Sorry you need additional funds for a mortgage")
 
     if salary <10000:
         print("Sorry you are not eligible for a mortgage")
