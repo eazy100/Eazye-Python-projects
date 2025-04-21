@@ -6,7 +6,7 @@ def get_currency():
         country = pycountry.countries.lookup(country_name)
         currency = pycountry.currencies.get(numeric=country.numeric).alpha_3
         return f"Currency of {country_name} is {currency}"
-    except:
+    except Exception:
         return "Country not found or currency not available."
 
 print(get_currency())
